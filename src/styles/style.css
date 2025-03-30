@@ -16,16 +16,19 @@ body {
   font-size: 37px;
   font-family: "Big Shoulders Inline";
 }
+.nav-link {
+  text-decoration: none;
+}
 .hero-title {
   font-size: 25px;
   font-family: "Dancing Script";
 }
 .hero-text {
-  font-size: 15px;
+  font-size: 20px;
   font-family: "Big Shoulders Inline";
 }
-.nav-link {
-  text-decoration: none;
+.hero-card {
+  max-width: 300px;
 }
 .hero-list {
   display: flex;
@@ -35,12 +38,23 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  border-width: 1px 1px 1px 1px;
+  border-color: black;
+  border-style: solid;
+  box-shadow: 3px 3px 3px 3px gray;
 }
+
 .hero-list {
   display: flex;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
+}
+.hero-link {
+  font-size: 30px;
+  font-family: "Big Shoulders Inline";
+  color: cadetblue;
+  text-decoration: none;
 }
 .footer {
   background-color: rgba(47, 48, 58, 1);
