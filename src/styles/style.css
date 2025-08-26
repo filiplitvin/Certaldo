@@ -184,11 +184,24 @@
   padding-top: 40px;
   padding-bottom: 40px;
 }
+.far__box {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
 .far__photo {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .far__img {
   border: 10px double lime;
+}
+.far__text {
+  max-width: 400px;
+  font-family: "Courier New", Courier, monospace;
 }
